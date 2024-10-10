@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to run the app:
 
-Things you may want to cover:
+* Open terminal
 
-* Ruby version
+* get into the application directory
+  
+* execute command : rails db:migrate (to do database migration (creating tables, relations, etc))
 
-* System dependencies
+* execute command : rails s (to run the rails server)
 
-* Configuration
 
-* Database creation
+To run the latest stock price, please create .env file in the root directory of the app and add below variable :
 
-* Database initialization
+RAPIDAPI_KEY=api_key
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+fill the api_key to whatever the API Key is for https://latest-stock-price.p.rapidapi.com
