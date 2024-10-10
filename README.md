@@ -13,6 +13,6 @@ How to run the app:
 
 To run the latest stock price, please create .env file in the root directory of the app and add below variable :
 
-RAPIDAPI_KEY=api_key
+RAPIDAPI_KEY=api_key_here
 
-fill the api_key to whatever the API Key is for https://latest-stock-price.p.rapidapi.com
+change the **api_key_here** to whatever the API Key for https://latest-stock-price.p.rapidapi.com
